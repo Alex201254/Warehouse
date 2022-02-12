@@ -1,0 +1,9 @@
+.card--position-2 {
+  border-bottom: 358px solid rgb(156, 105, 226, 0.1);
+}
+
+@media screen and (max-width: 750px) {
+  .card--position-2 {
+    border-bottom: 258px solid rgb(156, 105, 226, 0.1);
+  }
+}

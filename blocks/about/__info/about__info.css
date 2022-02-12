@@ -1,0 +1,11 @@
+.about__info {
+  margin: 125px 0 125px 65px;
+  max-width: 475px;
+}
+
+@media screen and (max-width: 600px) {
+  .about__info {
+    margin: 40px 0 60px 0;
+    text-align: center;
+  }
+}

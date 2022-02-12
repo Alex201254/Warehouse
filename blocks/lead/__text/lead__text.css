@@ -1,0 +1,15 @@
+.lead__text {
+  margin: 50px 0 0;
+  max-width: 380px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+@media screen and (max-width: 1000px) {
+  .lead__text {
+    text-align: center;
+  }
+}

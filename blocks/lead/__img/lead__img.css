@@ -1,0 +1,22 @@
+.lead__img {
+  position: absolute;
+  width: 885px;
+  height: 468px;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .lead__img {
+    width: 700px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .lead__img {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

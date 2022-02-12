@@ -1,0 +1,4 @@
+.arrows__arrow--right {
+  transform: rotate(-180deg);
+  width: 20px;
+}

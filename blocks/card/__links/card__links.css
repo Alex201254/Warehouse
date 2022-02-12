@@ -1,0 +1,24 @@
+.card__links {
+  margin: 20px 0 0;
+  display: flex;
+  column-gap: 20px;
+  transition: opacity 0.1s linear;
+  opacity: 1;
+}
+
+.card__links:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1200px) {
+  .card__links {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card__links {
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.header__container {
+  max-width: 1248px;
+  margin: 62px auto 0;
+  display: flex;
+  align-items: center;
+  column-gap: 121px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__container {
+    margin-top: 40px;
+    column-gap: 60px;
+  }
+}

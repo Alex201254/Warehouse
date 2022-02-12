@@ -1,0 +1,21 @@
+.comments {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 88px 0 0;
+  column-gap: 20px;
+  min-width: 1578px;
+  padding: 0;
+  min-height: 330px;
+}
+
+@media screen and (max-width: 1000px) {
+  .comments {
+    min-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .comments {
+    min-width: 1100px;
+  }
+}
